@@ -4,7 +4,7 @@
 /** @var $id_note int */
 ?>
 
-<div id="container" style="opacity: 0">
+<div id="container">
     <h1 class="text-center">Modifier la note</h1>
     <form method="post" action="/note/edit/<?= $id_student ?>/<?= $id_note ?>">
         <div class="d-flex flex-column align-items-center">

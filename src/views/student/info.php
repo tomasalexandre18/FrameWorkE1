@@ -3,7 +3,7 @@
 /** @var array $notes */
 ?>
 
-<div id="container" style="opacity: 0">
+<div id="container">
     <h1 class="text-center">Information sur <?= $data['lastname'] ?> <?= $data['surname'] ?></h1>
     <div class="d-flex flex-column align-items-center">
         <table class="table table-striped table-bordered w-50">

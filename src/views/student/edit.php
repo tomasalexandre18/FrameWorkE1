@@ -3,7 +3,7 @@
 /** @var bool $successes */
 ?>
 
-<div id="container" style="opacity: 0">
+<div id="container">
     <h1 class="text-center">Modifier <?= $data['lastname'] ?> <?= $data['surname'] ?></h1>
     <form method="post" action="/student/edit/<?= $data['id'] ?>">
         <div class="d-flex flex-column align-items-center">

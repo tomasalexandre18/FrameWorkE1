@@ -2,16 +2,16 @@
 /** @var int $id */
 ?>
 
-<div id="container" style="opacity: 0">
+<div id="container">
     <h1 class="text-center">Add a Student</h1>
     <form method="post" action="/note/add/<?= $id ?>">
         <div class="d-flex flex-column align-items-center">
             <div class="mb-3">
-                <label for="lastname" class="form-label">Mattiere</label>
+                <label for="mat" class="form-label">Mattiere</label>
                 <input type="text" class="form-control" id="mat" name="mat" required>
             </div>
             <div class="mb-3">
-                <label for="surname" class="form-label">Note</label>
+                <label for="note" class="form-label">Note</label>
                 <input type="number" class="form-control" id="note" name="note" required>
             </div>
 

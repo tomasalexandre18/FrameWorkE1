@@ -1,4 +1,4 @@
-<div id="container" style="opacity: 0">
+<div id="container">
     <h1 class="text-center">Add a Student</h1>
     <form method="post" action="/student/add/">
         <div class="d-flex flex-column align-items-center">

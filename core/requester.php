@@ -52,8 +52,6 @@ class Requester
         if (isset($params["OFFSET"]) && $params["OFFSET"] > 0) {
             $out .= " OFFSET ".$params["OFFSET"];
         }
-        DEBUG::printr($out);
-        DEBUG::printr($param);
         return $this->prepare($out, $param);
     }
 
@@ -105,7 +103,6 @@ class Requester
         $out_parameter = [];
         foreach ($params as $key => $value) {
             if ($key == "AND" ||  $key == "OR") {
-                DEBUG::printr($params[$key]);
                 $out .= "(";
                 $t = $this->where($value[0]);
                 $out_parameter = array_merge($out_parameter, $t[1]);

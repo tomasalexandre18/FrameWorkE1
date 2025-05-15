@@ -2,7 +2,7 @@
 /** @var array $data ['id" => int, 'surname' => string, 'name' => string, 'email' => string, 'age'=>int] */
 ?>
 
-<div class="d-flex flex-column align-items-center" id="container" style="opacity: 0">
+<div class="d-flex flex-column align-items-center" id="container">
     <div class="d-flex flex-row justify-content-between w-50">
         <h1 style="text-align: center">Student</h1>
         <h1>
